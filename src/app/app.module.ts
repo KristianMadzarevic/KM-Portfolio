@@ -8,6 +8,7 @@ import {ButtonModule} from 'primeng/button';
 import {RippleModule} from 'primeng/ripple';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { MainComponent } from './main/main.component';
+import { BackgroundComponent } from './welcome/background/background.component';
 
 
 
@@ -15,7 +16,8 @@ import { MainComponent } from './main/main.component';
   declarations: [
     AppComponent,
     WelcomeComponent,
-    MainComponent
+    MainComponent,
+    BackgroundComponent
   ],
   imports: [
     BrowserModule,
